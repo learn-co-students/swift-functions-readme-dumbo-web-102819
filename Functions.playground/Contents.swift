@@ -42,3 +42,9 @@ sayHello(name: "Socks")
 let dumpsterCat = "Rocky"
 sayHello(name: dumpsterCat)
 // Prints "Hello Rocky, why do you sleep so much?"
+
+func playAround(chicken:String){
+    print("The name of the chicken is \(chicken)")
+}
+
+playAround(chicken: "Momoda")
